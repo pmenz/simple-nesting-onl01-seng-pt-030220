@@ -93,7 +93,7 @@ def changing_alan
           :languages => ["COBOL", "FORTRAN"]
         },
         :alan_kay => {
-          :known_for => ["GUI"],
+          :known_for => "GUI",
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
@@ -102,7 +102,7 @@ def changing_alan
         }
      }
  		
-     programmer_hash[:alan_kay][:known_for]
+     return programmer_hash[:alan_kay][:known_for]
      
 end
 
